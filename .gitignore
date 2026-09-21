@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# Secrets & Environment configs
+.env
+*.env
+
+# Benchmark data and temporary extracts (prevent pushing large SQLite binaries)
+data/
+temp_spider/
+spider_data.zip
+*.sqlite
+*.sqlite3
+*.db
+
+# Evaluation runs & outputs
+outputs/
+eval_results*.json
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
